@@ -1,0 +1,52 @@
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+
+
+        h4 {
+            font-size: 2rem !important;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .contact {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact--detail {
+            grid-column: 2/7;
+            padding: 5rem 0;
+        }
+
+        .contact--map {
+            grid-column: 7/11;
+        }
+
+        .contact--list {
+            font-size: 1.5rem;
+            text-decoration: none;
+            text-shadow: none;
+        }
+
+        .contact--list li {
+            list-style-type: none;
+        }
+
+        @media screen and (max-width:860px) {
+            .contact {
+                display: block;
+            }
+
+            .contact--detail {
+                padding: 3rem !important;
+            }
+        }
