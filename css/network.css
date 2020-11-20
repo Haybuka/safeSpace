@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.create {
+    margin: 0 auto;
+    background: #fff;
+
+}
+
+.card {
+    border: none;
+}
+
+.card .row {
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(7, 7, 7, 0.493);
+}
+
+form {
+    font-size: 2rem;
+}
+
+.create--details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.speech--join h1,.speech--join p{
+    color: #193763 !important;
+}
+h1{
+    font-size: 3.5rem;
+   
+}
+h4 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.provide--care {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: center;
+    background: var(--nav-background);
+}
+
+.provide--care-container{
+    grid-column: 2/7;
+    padding: 5rem 0;
+}
+
+.provide--care-info{
+    grid-column: 7/13;
+    padding: 1rem;
+}
+
+
+.btn {
+    padding: 0.5rem 1rem !important;
+    border-radius: 1rem !important;
+    font-weight: bold !important;
+    font-size: 2rem;
+    display: block;
+    margin: 0 auto;
+    background: var(--btn-signin);
+    color: var(--btn-color);
+}
+
+.form-control {
+    border-radius: 1.5rem !important;
+    padding: 1rem 1.5rem !important;
+    font-size: 1.5rem !important;
+    color: #000 !important;
+}
+
+.join--form {
+    background: var(--nav-background);
+    color: var(--btn-color);
+}
+
+.join--form form {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.join--form input {
+    padding: 2.5rem 2rem !important;
+    width: 100%;
+    border-radius: 1rem !important;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #000 !important;
+}
+.form-control::placeholder{
+    color: #fff !important;
+}
+.join--form .btn{
+    background: var(--btn-signin);
+    color: var(--btn-color);
+    padding: 0.5rem 2.5rem !important;
+    border: none;
+    border-radius: 1rem;
+    display: inline-block;
+}
+@media screen and (max-width:860px) {
+    .provide--care {
+        display: block;
+    }
+
+    .provide--care-container {
+        padding: 3rem !important;
+    }
+}
