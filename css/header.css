@@ -74,6 +74,7 @@ color: var(--offer-color);
     border-radius: 1.5rem;
     padding: 1rem 1.5rem;
     font-size: 1.5rem;
+    color: #000;
 }
 .nav--list{
     padding: 0;
@@ -92,10 +93,12 @@ color: var(--offer-color);
     font-size: 2rem;
     color: var(--nav-item);
     text-decoration: none;
+    text-shadow: none;
 }
 .btn{
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+    font-weight: bold;
 }
 .btn--sign-in{
 background: var(--btn-signin);
@@ -141,6 +144,7 @@ background: var(--btn-signin);
         box-sizing: border-box;
     }
     .nav--item{
+        display: none;
         grid-column: 1/13;
         grid-row: 2/3;
         justify-content: center;
@@ -149,8 +153,7 @@ background: var(--btn-signin);
         z-index: 2;
     }
     .nav--item.close{
-        height: 0;
-        overflow: hidden;
+   display: block;
       }
     .nav--search{
         width: 350px;
