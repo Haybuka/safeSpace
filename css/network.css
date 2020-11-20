@@ -111,6 +111,9 @@ p {
     display: inline-block;
 }
 @media screen and (max-width:860px) {
+    .join--form form {
+        width: auto;
+    }
     .provide--care {
         display: block;
     }
