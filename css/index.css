@@ -1,0 +1,83 @@
+* {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .create {
+            margin: 0 auto;
+            background: #fff;
+
+        }
+
+        .card {
+            border: none;
+        }
+
+        .card .row {
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px rgba(7, 7, 7, 0.493);
+        }
+
+        form {
+            font-size: 2rem;
+        }
+
+        .create--details {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h5 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem !important;
+            border-radius: 1rem !important;
+            font-weight: bold !important;
+            font-size: 2rem;
+            display: block;
+            margin: 0 auto;
+            background: var(--btn-signin);
+            color: var(--btn-color);
+        }
+
+        .form-control {
+            border-radius: 1.5rem !important;
+            padding: 1rem 1.5rem !important;
+            font-size: 1.5rem !important;
+            color: #000 !important;
+        }
+
+        .community {
+            background: var(--nav-background);
+            color: var(--btn-color);
+        }
+
+        .community form {
+            margin: 0 auto;
+            width: 400px;
+        }
+
+        .community input {
+            padding: 0.5rem 1.5rem;
+            width: 65%;
+            border-radius: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.404);
+        }
+
+        .community button {
+            background: var(--btn-signin);
+            color: var(--btn-color);
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 1rem;
+            display: inline-block;
+        }
+    
