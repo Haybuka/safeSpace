@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Mada',sans-serif;
+    font-size: 62.4%;
+}
+:root{
+    --offer-background :#fff;
+    --offer-color : #193763;
+    --nav-background: #193763;
+    --offer-off:#E02D93;
+}
+.header--offer_container{
+background-color: var(--offer-background);
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+}
+.header-offer{
+font-size: 2rem;
+color: var(--offer-color);
+}
+.offer--off{
+  color: var(--offer-off);
+  font-size: 2rem;
+}
