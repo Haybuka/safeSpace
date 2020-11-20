@@ -29,7 +29,7 @@ background-color: var(--offer-background);
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 1rem;
+padding: .5rem;
 }
 .header-offer{
 font-size: 2rem;
@@ -142,7 +142,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(2,minmax(0,auto));
-    padding-top: 1rem;
+    padding-top: 1.5rem;
 }
 .footer--info{
     grid-column: 1/4;
@@ -176,7 +176,7 @@ footer{
     grid-row: 3/4;
 }
 footer h4{
-    font-size: 2.1rem;
+    font-size: 2rem;
     color: var(--nav-item);
 }
 
@@ -190,7 +190,7 @@ footer li a,footer li span,footer p{
     text-shadow: none;
 }
 footer li a i{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .footer--info .logo--container{
     margin-left: 0;
