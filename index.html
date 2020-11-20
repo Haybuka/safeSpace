@@ -20,6 +20,54 @@
     <link rel="stylesheet" href="css/header.css">
 
     <title>ZuriAcademy | Home</title>
+    <style>
+        .create {
+            margin: 0 auto;
+            background: #fff;
+
+        }
+
+        .card {
+            border: none;
+        }
+
+        .card .row {
+            border-radius: 10px;
+            box-shadow: 3px 3px 5px grey;
+        }
+
+        form {
+            font-size: 2rem;
+        }
+
+        .create--details {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .create h5 {
+            font-size: 2rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem !important;
+            border-radius: 1rem !important;
+            font-weight: bold !important;
+            font-size: 2rem;
+            display: block;
+            margin: 0 auto;
+            background: var(--btn-signin);
+            color: var(--btn-color);
+        }
+
+        .form-control {
+            border-radius: 1.5rem !important;
+            padding: 1rem 1.5rem !important;
+            font-size: 1.5rem !important;
+            color: #000 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -57,6 +105,39 @@
 
         </nav>
     </header>
+    <section class="create card p-5" style="max-width: 800px;">
+
+        <div class="row no-gutters">
+            <div class="col-md-6">
+                <img src="img/Mask Group (2).png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-6 create--details">
+                <div class="card-body">
+                    <h5 class="card-title">Create an Acoount</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp"
+                                placeholder="Name">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Email Address">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn text-center">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <!-- Footer -->
     <footer class=" ">
         <div class="footer--info">

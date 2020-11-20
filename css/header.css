@@ -10,7 +10,6 @@ html {
 }
 body{
     line-height: 1.7;
-    background: red;
 }
 .container{
     padding-left: 3rem !important;
@@ -97,9 +96,9 @@ color: var(--offer-color);
     text-shadow: none;
 }
 .btn{
-    padding: 0.5rem 1rem;
-    border-radius: 1rem;
-    font-weight: bold;
+    padding: 0.5rem 1rem !important;
+    border-radius: 1rem !important;
+    font-weight: bold !important;
 }
 .btn--sign-in{
 background: var(--btn-signin);
