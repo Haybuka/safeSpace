@@ -7,34 +7,63 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/all-fontawesome.min.css">
     <link rel="stylesheet" href="css/header.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>ZuriAcademy | Home</title>
 </head>
 
 <body>
-    <header>
+    <div class="overlay"></div>
+    <header class="">
         <div class="header--offer_container">
             <p class="header-offer">Special Offer: <span class="offer--off">100% off!</span> Signup to our mailing list
                 to
                 speak with a Therapist</p>
         </div>
-        <nav class="header--nav">
-            <nav class="navigation container">
-                <div class="logo">
-                    <a href=""><img src="img/logo.png" alt="" class="logo"></a>
-                </div>
-                <input type="text" class="search" placeholder="find a near by therapist">
-                <!-- <span><a href=""><i class="fa fa-bars fa-2x toggle-button"></i></a></span> -->
-                <ul class="nav-list">
-                    <a href="index.html">HOME</a></li>
+        <nav class="header--nav ">
+            <div class="logo--container">
+                <a href=""><img src="img/logo.png" alt="" class="nav--logo"></a>
+            </div>
+            <div class="harmburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav--item">
+                <ul class="nav--list">
+                    <li>
+                        <form class="nav--search">
+                            <input type="text" class="search" placeholder="find a near by therapist">
+                        </form>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="chart.html">CHARTWITHATHERAPIST</a></li>
+                    <li><a href="chart.html">CHAT WITH A THERAPIST</a></li>
                     <li><a href="contact.html">CONTACT</a></li>
                     <li><a href="network.html">JOIN OUR NETWORK</a></li>
-                    <li><a href="" class="btn-started">SIGN IN</a></li>
+                    <li><a href="" class="btn btn--sign-in">SIGN IN</a></li>
                 </ul>
-            </nav>
+            </div>
+
         </nav>
     </header>
+    <script>
+        let harmburger = document.querySelector('.harmburger');
+        let navItem = document.querySelector('.nav--item')
+        harmburger.addEventListener('click', () => {
+            navItem.classList.toggle('close')
+        })
+    </script>
 </body>
 
 </html>
