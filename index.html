@@ -46,8 +46,12 @@
             align-items: center;
         }
 
-        .create h5 {
+        h5 {
             font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.5rem;
         }
 
         .btn {
@@ -66,6 +70,32 @@
             padding: 1rem 1.5rem !important;
             font-size: 1.5rem !important;
             color: #000 !important;
+        }
+
+        .community {
+            background: var(--nav-background);
+            color: var(--btn-color);
+        }
+
+        .community form {
+            margin: 0 auto;
+            width: 400px;
+        }
+
+        .community input {
+            padding: 0.5rem 1.5rem;
+            width: 70%;
+            border-radius: 1rem;
+            border: 1px solid rgba(0, 0, 0, 0.404);
+        }
+
+        .community button {
+            background: var(--btn-signin);
+            color: var(--btn-color);
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 1rem;
+            display: inline-block;
         }
     </style>
 </head>
@@ -111,9 +141,9 @@
             <div class="col-md-6">
                 <img src="img/Mask Group (2).png" class="card-img" alt="...">
             </div>
-            <div class="col-md-6 create--details">
+            <div class="col-md-6 create--details py-3">
                 <div class="card-body">
-                    <h5 class="card-title">Create an Acoount</h5>
+                    <h5 class="card-title">Create Acoount</h5>
                     <form>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Name</label>
@@ -137,6 +167,20 @@
             </div>
         </div>
 
+    </section>
+    <section class="community text-center py-4 my-3">
+        <h5>JOIN OUR KICKASS COMMUNITY</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+            doloremque asperiores perferendis provident saepe velit assumenda aliquam soluta? Consequuntur, quis?</p>
+        <form action="">
+            <input type="email" id="subscribe" class="" aria-describedby="subscribe" name="subscribe"
+                placeholder="enter email here to subscribe">
+            <button class="">subscibe</button>
+        </form>
+    </section>
+    <section class="speech text-center p-3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, dolorum labore libero saepe error
+            architecto?</p>
     </section>
     <!-- Footer -->
     <footer class=" ">
