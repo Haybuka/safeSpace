@@ -15,6 +15,9 @@ body{
     padding-left: 3rem !important;
     padding-right: 3rem !important;
 }
+.close{
+    opacity: 1;
+}
 :root{
     --offer-background :#fff;
     --offer-color : #193763;
@@ -196,6 +199,7 @@ footer li a i{
     margin-left: 0;
     padding-left: 0;
 }
+
 @media screen and (max-width:1100px){
    
     .harmburger{
@@ -231,6 +235,13 @@ footer li a i{
        margin-top: 1rem;
     }
     
+    .footer--info{
+        padding-left: 2rem;
+    }
+  
+} 
+@media screen and (max-width:900px){
+   
   footer{
       display: block;
    
@@ -248,8 +259,7 @@ footer li a i{
     padding-left: 0;
 }
   
-}
-
+} 
 
 
 
