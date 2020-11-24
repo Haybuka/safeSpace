@@ -248,8 +248,8 @@ footer li a i{
   }
   footer div{
       margin-top: 3rem;
-      padding: 2rem;
-      padding-left: 0;
+      padding: 1rem;
+      padding-left: 0.2;
   }
   footer li a:hover{
       color: var(--nav-item);
