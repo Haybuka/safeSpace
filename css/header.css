@@ -249,6 +249,7 @@ footer li a i{
   footer div{
       margin-top: 3rem;
       padding: 2rem;
+      padding-left: 0;
   }
   footer li a:hover{
       color: var(--nav-item);
