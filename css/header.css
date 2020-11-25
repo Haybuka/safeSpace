@@ -88,6 +88,9 @@ color: var(--offer-color);
     justify-content: right;
     align-items: center;
 }
+.nav--list:hover{
+    opacity: 1;
+}
 .nav--list li{
     margin-right: 1.5rem;
     
@@ -97,6 +100,12 @@ color: var(--offer-color);
     color: var(--nav-item);
     text-decoration: none;
     text-shadow: none;
+}
+.nav--list li a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #E02D93;
 }
 .btn{
     padding: 0.5rem 1rem !important;
@@ -109,6 +118,7 @@ background: var(--btn-signin);
 .btn--sign-in:hover{
     background: var(--btn-color);  
     color: var(--btn-signin); 
+    opacity: 1;
 }
 .overlay{
     position: absolute;
@@ -185,6 +195,12 @@ footer h4{
 
 footer li{
     list-style-type: none;
+    transform: translateY(0) ;
+    transition: all .3s ease-in-out;
+}
+footer li:hover{
+    transform: translateY(-5px) !important;
+    transform-origin: center;
 }
 footer li a,footer li span,footer p{
     font-size: 2rem;
@@ -194,6 +210,13 @@ footer li a,footer li span,footer p{
 }
 footer li a i{
     font-size: 2rem;
+}
+footer li a{
+    
+}
+footer li a:hover{
+    text-decoration: none !important;
+    color: #fff !important;
 }
 .footer--info .logo--container{
     margin-left: 0;
@@ -253,6 +276,7 @@ footer li a i{
   }
   footer li a:hover{
       color: var(--nav-item);
+      opacity: 1;
   }
   .footer--info{
     grid-column: 1/4;
